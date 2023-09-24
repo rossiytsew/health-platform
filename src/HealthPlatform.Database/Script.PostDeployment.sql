@@ -1,0 +1,10 @@
+﻿:r .\Scripts\Script.PostDeployment_States.sql
+:r .\Scripts\Script.PostDeployment_Settings.sql
+:r .\Scripts\Script.PostDeployment_Domains.sql
+:r .\Scripts\Script.PostDeployment_Users.sql
+:r .\Scripts\Script.PostDeployment_Employers.sql
+:r .\Scripts\Script.PostDeployment_Consumers.sql
+:r .\Scripts\Script.PostDeployment_BenefitsPackages.sql
+:r .\Scripts\Script.PostDeployment_BenefitsOfferings.sql
+:r .\Scripts\Script.PostDeployment_Enrollments.sql
+:r .\Scripts\Script.PostDeployment_Reports.sql

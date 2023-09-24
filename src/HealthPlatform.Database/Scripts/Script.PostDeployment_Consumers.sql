@@ -1,0 +1,68 @@
+﻿EXEC dbo.usp_AddConsumer
+	@Username = 'john.doe',
+	@PasswordHash = N'qIhkwOoVrq4TYqiannaUrG4PkEeuuwh/5mGrBOKhfqJK2Ac+',
+	@DomainId = 1,
+	@EmployerId = 1,
+	@FirstName = 'John',
+	@LastName = 'Doe',
+	@Ssn = '757-85-7495',
+	@Street = '795 E Dragram',
+	@City = 'Tucson',
+	@ZipCode = '85705',
+	@StateId = 3,
+	@PhoneNumber = '+1 480-555-3890',
+	@ConsumerId = 0,
+	@SecurityLoginId = 0,
+	@AddressId = 0
+GO
+EXEC dbo.usp_AddConsumer
+	@Username = 'adam.smith',
+	@PasswordHash = N'5KRLp0VlttpQYj6sTRlGYvY1stXud2CS6poN8OegCh4sBIfI',
+	@DomainId = 1,
+	@EmployerId = 1,
+	@FirstName = 'Adam',
+	@LastName = 'Smith',
+	@Ssn = '149-13-7317',
+	@Street = '799 E Dragram Suite 5A',
+	@City = 'Tucson',
+	@ZipCode = '85705',
+	@StateId = 3,
+	@PhoneNumber = '+1 480-555-3911',
+	@ConsumerId = 0,
+	@SecurityLoginId = 0,
+	@AddressId = 0
+GO
+EXEC dbo.usp_AddConsumer
+	@Username = 'elizabeth.davis',
+	@PasswordHash = N'FGF5SKpTg9fGNud9y9+vSjWFgxZjS3hPM+bbJxvHgpRaD7Yg',
+	@DomainId = 1,
+	@EmployerId = 1,
+	@FirstName = 'Elizabeth',
+	@LastName = 'Davis',
+	@Ssn = '909-03-4642',
+	@Street = '200 E Main St',
+	@City = 'Phoenix',
+	@ZipCode = '85123',
+	@StateId = 3,
+	@PhoneNumber = '+1 480-555-4087',
+	@ConsumerId = 0,
+	@SecurityLoginId = 0,
+	@AddressId = 0
+GO
+EXEC dbo.usp_AddConsumer
+	@Username = 'dana.miller',
+	@PasswordHash = N'7deMuGTmaPhljpjRhEUx92fwLU0JSa2txW8qIe6FqjfCXEc2',
+	@DomainId = 1,
+	@EmployerId = 2,
+	@FirstName = 'Dana',
+	@LastName = 'Miller',
+	@Ssn = '501-13-4412',
+	@Street = '300 Boylston Ave E',
+	@City = 'Seattle',
+	@ZipCode = '98102',
+	@StateId = 47,
+	@PhoneNumber = '+1 206-555-7212',
+	@ConsumerId = 0,
+	@SecurityLoginId = 0,
+	@AddressId = 0
+GO
